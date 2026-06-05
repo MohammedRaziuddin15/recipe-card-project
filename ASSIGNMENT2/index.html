@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="recipe-card">
+
+        <header>
+           <h1>Hyderabadi Biryani</h1>
+
+           <img src="biryani.jpg" alt="Hyderabadi Biryani">
+
+        </header>
+
+        <section class="recipe-info">
+
+            <p><strong>Preparation Time:</strong> 45 Minutes</p>
+
+            <p><strong>Serves:</strong> 4 People</p>
+
+        </section>
+
+        <section class="ingredients-section">
+
+            <h2>Ingredients</h2>
+
+            <button id="ingredientsBtn">
+                Show Ingredients
+            </button>
+
+            <ul id="ingredients">
+
+                <li>2 Cups Basmati Rice</li>
+
+                <li>500g Mutton</li>
+
+                <li>3 Onions</li>
+
+                <li>Yogurt</li>
+
+                <li>Mutton Masala</li>
+
+            </ul>
+
+        </section>
+
+        <section class="steps-section">
+
+            <h2>Cooking Steps</h2>
+
+            <button id="stepsBtn">
+                Show Steps
+            </button>
+
+            <ol id="steps">
+
+                <li>Wash the rice.</li>
+
+                <li>Marinate the Mutton.</li>
+
+                <li>Cook the rice.</li>
+
+                <li>Cook the Mutton.</li>
+
+                <li>Layer and dum cook.</li>
+
+            </ol>
+
+        </section>
+
+        <section class="controls">
+
+            <button id="startBtn">
+                Start Cooking
+            </button>
+
+            <button id="nextBtn">
+                Next Step
+            </button>
+
+            <p id="progressText">Not Started</p>
+
+            <div class="progress-container">
+                <div id="progressBar"></div>
+            </div>
+
+            <p id="completeMessage"></p>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
