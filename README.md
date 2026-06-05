@@ -48,9 +48,6 @@ OR
 
 Open with VS Code and run using Live Server.
 
-## 📸 Screenshot
-
-![Recipe Card](biryani.jpg)
 
 ## 📚 Concepts Practiced
 
